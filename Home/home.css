@@ -1,0 +1,28 @@
+#pageHead {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#pageTitle {
+    font-size: 60px;
+    font-weight: normal;
+}
+
+#navBar {
+    text-decoration: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.pageLink {
+    text-decoration: none;
+    color: black;
+    transition: transform 2s ease-in;
+}
+
+.pageLink:hover {
+    text-decoration: underline;
+}
